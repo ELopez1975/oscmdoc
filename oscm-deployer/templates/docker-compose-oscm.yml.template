@@ -27,6 +27,7 @@ services:
       - ${DOCKER_PATH}/config/certs:/import/certs
       - ${DOCKER_PATH}/config/certs/sso:/import/certs/sso
     ports:
+      - 8080:8080
       - 8081:8081
       - 8000:8000
 
